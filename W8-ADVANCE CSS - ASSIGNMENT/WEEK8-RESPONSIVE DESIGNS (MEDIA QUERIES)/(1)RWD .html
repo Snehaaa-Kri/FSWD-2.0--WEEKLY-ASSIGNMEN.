@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD</title>
+
+    <style>
+
+        .box{
+            height: 100vh;
+
+        }
+
+        h1{
+            color: gray;
+        }
+
+        /* 576px and below */
+        @media screen and (min-width:576px) {
+            .box{
+                background-color: purple;
+            }
+        }
+
+        @media screen and (min-width:768px) {
+            .box{
+                background-color: #090080;
+            }
+        }
+
+        @media screen and (min-width:1000px) {
+            .box{
+                background-color: #0b8000;
+            }
+        }
+        
+        @media print and (min-width: 200px){
+            
+            
+            /* >> it will work only when the device width > 200px 
+            "mai 200px se niche kaam nhi krunga" */
+            
+            /* print wale screen me aapka website kaisa dikhega  */
+        }
+            
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 class="screen">Width :</h1>
+    </div>
+    
+</body>
+</html>

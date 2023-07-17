@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Game</title>
+
+    <style>
+        .container{
+            position: relative;
+            margin-left:37% ;
+        }
+
+        .card{
+            position: absolute;
+            border-radius: 10px;
+            height: 600px;
+            width: 400px;
+            border: 5px solid black;
+
+        }
+
+        .card1{
+            background-color: rgb(6, 128, 199);
+        }
+        .card1:hover{
+            background-color: rgb(6, 128, 199);
+            z-index: 999;
+            
+        }
+        .card2{
+            background-color: rgb(7, 153, 43);
+            z-index: 88;
+            top: 70px;
+            left: 40px;
+        }
+
+        .card2:hover{
+            background-color: rgb(7, 153, 43);
+            z-index: 1000;
+            top: 70px;
+            left: 40px;
+        }
+
+        .card3{
+            background-color: rgb(212, 183, 16);
+            z-index: 99;
+            top: 143px;
+            left: 83px;
+        }
+
+        
+
+        .img{
+            height: 450px;
+            padding-left: 50px;
+            padding-top: 20px;
+            
+        }
+
+        .back{
+            width: 290px;
+        }
+
+        h2, h1{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hover To Unveil The Pokemon</h1>
+
+    <div class="container">
+        <div class="card card1">
+            <h2>Card 1</h2>
+            <img src="https://e0.pxfuel.com/wallpapers/154/604/desktop-wallpaper-black-pikachu-background-in-2020-pikachu-pikachu-face.jpg" alt="hovered-pm" class="img back">
+
+        </div>
+
+
+        <div class="card card2">
+            <h2>Card 2</h2>
+            <img src="https://i.pinimg.com/550x/9a/50/c9/9a50c96b1da9bffa19c04750e01ab016.jpg" alt="mid" class="img mid">
+
+        </div>  
+
+
+
+        <div class="card card3">
+            <h2>Card 3</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl018Pp6eGPBFBbq9Iarv6vql2OFDWU94aOKj2lHjEg7r4HZV1wh5JBP-e9fS7ci6NkTE&usqp=CAU" alt="front" class="img front">
+        </div>
+    </div>
+
+
+
+
+    
+    
+</body>
+</html>

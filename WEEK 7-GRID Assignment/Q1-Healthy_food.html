@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1-Landing page</title>
+
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: 
+            "main sidebar bgyellow";
+
+        }
+        .main-content{
+            grid-area: main;
+            padding: 100px;
+            font-size: 23px;
+            align-self: center;
+        }
+        p{
+            color: grey;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            height: 100vh;
+        }
+        .bg-yellow{
+            grid-area: bgyellow;
+            width: 15vw;
+            background-color: yellow;
+        }
+
+        .button{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 8px 45px;
+           
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <h1>Healthy Food</h1>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id beatae necessitatibus, eaque         cumque blanditiis maxime temporibus iste, voluptatem possimus tempore cum ipsum culpa corrupti esse         fugit sit fugiat similique autem voluptate quasi porro expedita. Doloribus odio architecto sed,         dolorem eos facere aspernatur maxime veritatis vel fugit, corporis temporibus magnam explicabo iusto        repellendus exercitatione ea!</p>
+            <br><br>
+
+            <a href="#" class="button">Read More</a>
+        </div>    
+
+            <img src="./food.jpg" alt="food-img" class="sidebar">
+
+        <div class="bg-yellow"></div>    
+        </div>
+    
+</body>
+</html>

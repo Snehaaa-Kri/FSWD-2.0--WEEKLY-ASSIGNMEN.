@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+        .box{
+            height: 50px;
+            width: 200px;
+            border: solid;
+        }
+
+        .box1{
+            transform: translate(100px, 50px);
+            /* transform: translateX(20px); */
+            /* transform: translateY(100px); */
+        }
+
+        .image{
+            transform: scale(1.2, 1.2);
+            /* transform: scaleX(1.5); */
+            /* transform: scaleY(1.5); ===== 
+                     means 1.5 times ho bda ho jaega vertically  */
+
+        }
+
+        .image2{
+            transform: rotate(45deg);
+        }
+
+        .image3{
+            transform: skew(-10deg, 20deg);
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1><u>transform: translate(100px, 50px)</u></h1>
+    <div class="box box1">100px on x-axis <br> 50px on -axis</div>
+<br><br><br>
+    
+    <hr>
+    <hr>
+    <h1><u>transform: scale(); == property</u></h1>
+    
+    <img  src="./transform 1.jpeg" alt="">
+    <img class="image" src="./transform 1.jpeg" alt="">
+    
+
+    <br><br><br><br><br>
+    <hr>
+    <h1></h1><u>Transform: Rotate property of the image(+/-45deg)</u><h1></h1> <br><br><br><br><br><br>
+    <img class="image2" src="./transform 1.jpeg" alt="">
+    
+    
+    <br><br><br><br><br><br>
+    <b><u>TRANSFORM ke andr bhut saari properties h and sbko krke dekhne se samajh aaega</u></b> 
+    <hr>
+    <h1><u>Transform:skew(x-deg, y-deg)</u></h1>
+    
+    <br><br><br><br><br><br>
+    <img class="image3" src="./transform 1.jpeg" alt="">
+
+    <br><br><br>
+    <h1><u>Transform:matrix(saari ki saari values upr wale ek saath dene ke liye use hota h=== not a recommended prop by sir)</u></h1>
+
+
+</body>
+</html>

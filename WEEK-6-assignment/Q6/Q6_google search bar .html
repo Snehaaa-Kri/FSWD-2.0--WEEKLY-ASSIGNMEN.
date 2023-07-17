@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q6-Google_search_bar</title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        body{
+            background-color: #292727;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .search-bar{
+            height: 40px;
+            width: 700px;
+            padding: 0px 5px;
+            border: 1px solid grey;
+            border-radius: 20px;
+            background-color: #292727;
+            color: aliceblue;
+            justify-content: center;
+            margin-left: 28%;
+            
+        }
+
+        h1{
+            text-align: center;
+            margin-top: 10%;
+            font-size: 100px;
+            color: #f3f3f3;
+        }
+
+        #input{
+            order: 2;
+            height: 40px;
+            width: 582px;
+
+            padding: 3px;
+            border: 1px solid grey;
+            border-radius: 0px;
+
+            background-color: #292727;
+            border: none;
+            
+            
+
+        }
+        #input:focus{
+            order: 2;
+            height: 40px;
+            width: 582px;
+
+            padding: 3px;
+            border: 1px solid grey;
+            border-radius: 0px;
+
+            background-color: #292727;
+            border: none;
+            border: none;
+            /* to remove the box when input is focused */
+            outline: none;
+            color: #dadada;
+            font-size: 20px;
+            
+
+        }
+
+
+
+
+        .img{
+            height: 20px;
+            padding: 9px;
+
+        }
+
+        #search{
+            order:1 ;
+            float: left;
+        
+            
+            
+        }
+        #microphone{
+            order:1 ;
+            float: right;
+            order: 4;
+          
+            
+
+        }
+        #lens{
+            order:1 ;
+            float: right;
+            
+        }
+
+
+
+       
+        
+        
+    </style>
+
+</head>
+<body>
+    
+    <h1>Google</h1>
+
+    <div class="search-bar">
+    
+        <input type="search" name="search" id="input">
+
+        <a href="#"><img src="https://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png" id="search" class="img"></a>
+
+        <a href="#"><img src="https://i.pinimg.com/originals/ea/5f/5b/ea5f5bd3b4110f2afb958049b4096d3a.png" alt="microphone" id="microphone" class="img"></a>
+
+        <a href="#"><img src="https://seeklogo.com/images/G/google-lens-logo-0F69C74B83-seeklogo.com.png" alt="google lens" id="lens" class="img"></a>
+    </div>
+    
+</body>
+</html>

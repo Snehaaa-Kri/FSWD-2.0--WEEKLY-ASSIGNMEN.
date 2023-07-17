@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+
+    <style>
+        .box{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            background-color: blueviolet;
+            border-radius: 50%;
+
+            /* Now we are giving animations here === ye sb values dena hota h === but we write CUSTOM ANIMATIONS */
+
+
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+            animation: move 1s ease-in-out 2s 5 alternate;
+
+            /* 5 === no.of times  */
+            /* 2s ==== itne seconds baad chlega */
+
+
+        }
+
+        /* CUSTOM ANIMATION */
+        /* >move === is the name of the animation */
+        @keyframes move{
+            from{
+                left: 2px;
+            }
+
+            to{
+                left: 500px;
+            }
+        }
+
+
+
+        /* LAST SECTION  */
+
+        .button{
+            --color:green;
+                        /* this is a variable  */
+            padding: 0.5rem;
+            border: 1px solid var(--color);
+            color: var(--color);
+        }
+
+        .button:hover{
+            --color:blue;
+        }
+
+        .btn_red{
+            --color:red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1><u>Animations</u></h1>
+    <i>1. Animations ke andr aap key-frames lga skte h <br>
+       2. KEY-FRAMES == Iss position pr pahuch jaaye to ye karo, iss position pr pahuch jaaye to ye karo... iss position pr pahuch jaaye to ye karo..  <br>
+
+    </i>
+
+
+    <hr>
+    <hr>
+    
+    <div class="box"></div>
+    
+
+    <br><br><br><br><br>
+    <hr>
+    <hr>
+
+    <h1><u>WRITNIG CUSTOM CSS:(Interesting and final chize of css)</u></h1>
+
+    <a href="#" class="button ">Button Green</a>
+    <a href="#" class="button btn_red ">Button Red</a>
+    <a href="#" class="button ">Button Hover On</a>
+
+
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3-swiggy +Landing page</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container1{
+            display: grid;
+            grid-template-areas:
+            "navbar navbar navbar" 
+            "main sidebar bgyellow";
+
+        }
+        
+        .main-content{
+            grid-area: main;
+            padding: 100px;
+            font-size: 23px;
+            align-self: center;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            height: 100vh;
+        }
+        .bg-yellow{
+            grid-area: bgyellow;
+            width: 15vw;
+            background-color: yellow;
+        }
+        
+        p{
+            color: grey;
+        }
+        .button2{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 8px 40px;  
+            display: inline;
+        }
+
+
+       
+        .logo{
+            height: 70px;
+        }
+
+        
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        nav, ul, a{
+            display: flex;
+            align-items: center;
+            padding: 5px 30px;
+
+        }
+
+        nav, li, a{
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 20px; 
+            color: black;  
+        }
+
+        .button1{
+            font-size: 20px; 
+            border-radius: 5px;
+            padding: 7px 60px;
+            background-color: #2ebd2e;
+            border: none;
+            
+        }
+
+/* A SECTION OF SWIGGY */
+
+
+        .container3{
+            background-color: #2b1e16;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 0px 20px 200px 20px;
+            justify-content: center;
+            text-align: center;
+        }
+        .container3, img{
+            height: 350px;
+            
+        }
+        .s-para{
+            color: rgb(157, 157, 160);
+            padding: 10px 70px;
+            font-size: 23px;
+        }
+        h2{
+            font-size: 26px;
+        }
+
+        
+
+
+
+        
+
+
+        
+
+        
+
+
+        
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- NAV-BAR  -->
+    <header>
+        <img class="logo" src="./logo.jpg" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <a  href="#"><button class="button1">Login</button></a>
+    </header>
+    
+    
+    <div class="container1">
+    <!-- MAIN CONTENT  -->
+        <div class="main-content">
+            <h1>Healthy Food</h1>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id beatae necessitatibus, eaque         cumque blanditiis maxime temporibus iste, voluptatem possimus tempore cum ipsum culpa corrupti esse         fugit sit fugiat similique autem voluptate quasi porro expedita. Doloribus odio architecto sed,         dolorem eos facere aspernatur maxime veritatis vel fugit, corporis temporibus magnam explicabo iusto        repellendus exercitatione ea!</p>
+            <br><br>
+
+            <a href="#" class="button2">Read More</a>
+        </div>    
+
+            <img src="./food.jpg" alt="food-img" class="sidebar">
+
+        <div class="bg-yellow"></div>    
+        </div>
+
+
+<!-- A SECTION OF SWIGGY          -->
+        <div class="container3">
+            <div>
+                <img src="./swiggy1.webp" alt="one"><br>
+                <h2>No Minimum Order</h2>
+                <p class="s-para">Order in for yourself or for the group, with no restrictions on order value</p>
+            </div>
+
+
+            <div>
+                <img src="./swiggy2.webp" alt="two"><br>
+                <h2>Live Order Tracking</h2>
+                <p class="s-para">Know where your order is at all times, from the restauurant to your doorstep</p>
+            </div>
+            <div>
+                <img src="./swiggy3.webp" alt="three"><br>
+                <h2>Lightning-Fasr Delivery</h2>
+                <p class="s-para">Experience Swiggy's superfast delivery for food delivered fresh & on time</p>
+            </div>
+        </div>
+
+
+    
+</body>
+</html>

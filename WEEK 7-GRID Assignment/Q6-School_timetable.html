@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q6-School_Timetable</title>
+    <style>
+        .container2{
+            display: grid;
+            border: 2px solid black;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: 100px 50px 50px 50px 50px 50px 50px ;
+            
+        }
+        
+        div{
+            text-align: center;
+            border: 2px solid black;
+            padding: 10px;
+            font-size: 20px;
+            
+        }
+
+        .row1{
+            height: 100px;
+        }
+/* 1st row          */
+        .one-6 {
+            grid-row:2/8 ;
+            grid-column: 6;
+        }
+        .one-7{
+            grid-column:7/9 ;
+        }
+/* 2nd row  */
+
+        .two-1 {
+           grid-column: 2/4;
+        }
+/* 3rd row  */
+        .three-7{
+            grid-column:7/9 ;
+        }
+/* 4th row  */
+        .four-2{
+            grid-column: 2/4;
+        }
+/* 5th row  */
+        .five-7{
+            grid-column: 7/9;
+        }
+/* 6th row  */
+        .six-2{
+            grid-column: 2/4;
+        }
+        .six-7{
+            grid-column: 7/9;
+        }
+
+ /* COLORING PART */
+
+        .bg-pink{
+            background-color: #ff1c1c;
+            padding-top: 20%;
+        }
+        .bg-purple{
+            background-color: darkmagenta;
+        }
+        .bg-yellow{
+            background-color: #d8a61d;
+        }
+        .bg-grey{
+            background-color: rgb(168, 168, 168)
+        }
+        .bg-green{
+            background-color: #10b310;
+        }
+        .rest{
+            background-color: rgb(14, 182, 194);
+        }
+        .container2{
+            background-color: #424292;
+        }
+
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container 1">
+        <h1>School Timetable</h1>
+        <div class="container2">
+            <div class="bg-pink">TIME</div>
+            <div class="bg-pink">08:00 AM-09:00AM </div>
+            <div class="bg-pink">09:00 AM-10:00AM</div>
+            <div class="bg-pink">10:00 AM-11:00AM</div>
+            <div class="bg-pink">11:00 AM-12:00AM</div>
+            <div class="bg-pink">12:00 PM-02:00PM</div>
+            <div class="bg-pink">02:00 PM-03:00PM</div>
+            <div class="bg-pink">03:00 PM-04:00PM</div>
+
+            <div class="bg-purple">Monday</div>
+            <div class="rest">English</div>
+            <div class="rest">Biology</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="one-6 bg-yellow"><b>L <br><br> U <br><br> N <br><br> C <br><br> H <br><br><br> Break </b></div>
+            <div class="one-7 bg-grey">Chemistry LAB</div>
+
+
+            <div class="bg-purple">Tuesday</div>    
+            <div class="two-1 bg-grey">Biology LAB</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="rest">English</div>
+            <div class="rest">Biology</div>
+
+            <div class="bg-purple">Wednesday</div>
+            <div class="rest">English</div>
+            <div class="rest">Biology</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="three-7 bg-green "><b>Games</b></div>
+
+            <div class="bg-purple">Thursday</div>
+            <div class="four-2 bg-grey">Biology LAB</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="rest">English</div>
+            <div class="rest">Biology</div>
+
+            <div class="bg-purple">Friday</div>
+            <div class="rest">English</div>
+            <div class="rest">Biology</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="five-7 bg-grey">Physics LAB</div>
+
+            <div class="bg-purple">Saturday</div>
+            <div class="six-2 bg-grey">Biology LAB</div>
+            <div class="rest">Physics</div>
+            <div class="rest">Chemistry</div>
+            <div class="six-7 bg-green"><b>LET OFF</b></div>
+            
+
+            
+            
+
+            
+
+        </div>
+    </div>
+    
+</body>
+</html>

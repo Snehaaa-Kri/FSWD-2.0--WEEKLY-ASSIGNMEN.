@@ -1,0 +1,107 @@
+Q1. List out the features of html 5.
+Answer- The features of html 5:
+          a)Introduction and replacements of old tags- 
+              Some of the older tags are removed and newer elements and attributes are introduced in html 5. Eg- nav and footer elements for div and span elements, audio and video elements instead of object element.
+          
+          b) New APIs-
+            Some of the new APIs introduced by html 5 are-
+              - Canvas
+              - Time media playback
+              - Drag and drop
+              - Geolocation
+              - Web storage 
+              - IndexedDB
+              - Web SQL Database                    
+
+
+
+Q2. What are HTML Entities? List out 5 commonly used HTML entities.
+
+Answer- An HTML entity is a piece of text ("string") that begins with an ampersand ( & ) and ends with a semicolon ( ; ).
+        
+        5 commonly used HTML entities are-
+             a. Copyright symbol -- &copy;
+             b. Greater than -- &gt;
+             c. Less than -- &lt;
+             d. Trademark sign -- &trade;
+             e. Registered sign -- &reg;  
+
+
+
+Q3. What is web accessibility? List some of tech assistive devices which play a major role in providing accessibility.
+
+Answer- Web accessibility means that websites, tools, and technologies designed in such a way that people with disabilities can perceive, understand, interact and contribute to the web.
+
+Some of the tech assistive devices are-
+screen readers, screen magnification softwares, text readers, speech input softwares, etc.
+
+
+
+
+Q4. List any 3 ways which help us in improving the accessibilityof HTML.
+
+Answer- 3 ways for improving the accessibilityof HTML are-
+   a. Choosing a content management system that supports accessibility.
+   b. Using proper tags for respective content.
+   c. Ensure that all contentcan be accessed with the keyboard alone in a logical way.
+
+
+Q5. Write a short note on tabindex.
+     Defination: tabindex attribute specifies the tab order of an element when the "tab" button is used for nevigation. It is a global attribute and can be used on any element. It is used to make HTML elements focusable, allow or prevent them from being sequentially focusable.
+
+     It accepts an integer as a value, with different results depending on the integer's value:
+       
+       1. A negative integer - (the exact value doesn't matter) means that the element is not reachble via sequential keyboardnavigation.
+
+       2. zero value - means that the element should be focusable in sequential keyboard nevigation, after any positive tableindex value.
+
+       3. A positive interger - means the element should be focusable in sequential keyboard nevigation, with its order defined by the value of the number.  
+
+
+
+
+
+Q6. List any 5 semantic tags in HTML along with their description.
+
+Answer- 1. Header element
+              The <header> element represents a container for introductory content or a set of navigational links
+              
+              A header element typically contains:
+                  > one or more heading elements (<h1> - <h6>)
+                  > logo or icon
+                  > authorship information
+        
+        2. Nevigation element
+              The <nav> element defines a set of navigation links. 
+
+        3. Aside element
+              The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+
+        4. Aside tags
+              The <article> element specifies independent, self-contained content.
+
+              Article element can be used:
+              > Forum posts
+              > Blog posts
+              > User comments
+              > Product cards
+              > Newspaper articles
+
+
+        5. Footer element
+              The <footer> element defines a footer for a document or section.       
+
+              A <footer> element typically contains:
+                  > authorship information
+                  > copyright information
+                  > contact information
+                  > sitemap
+                  > back to top links
+                  > related documents   
+
+Q7. What are the benefits of using semantic tags in our webpage?
+
+Answer- Benefits of using semantic tags are:
+         1. Easier to read.
+         2. Greater accessibility. 
+         3. semantic elements lead to more consistent code.

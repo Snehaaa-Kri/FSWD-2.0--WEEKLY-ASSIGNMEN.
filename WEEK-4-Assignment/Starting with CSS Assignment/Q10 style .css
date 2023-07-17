@@ -1,0 +1,33 @@
+body{
+    font-size: 25px;
+    text-align: center;
+    background-color: #83a7dd;
+}
+
+h2{
+    background-color: #11438f;
+    color: white;
+    padding: 20px;
+
+    
+font-family: 'Rubik Puddles', cursive;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Puddles&family=Titan+One&display=swap');
+
+h3{
+    background-color: #4283e6;
+    color: white;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rubik+Puddles&family=Titan+One&display=swap');
+
+
+
+p{
+    background-color: #5d92e2;
+    font-family: 'Dancing Script', cursive;
+}

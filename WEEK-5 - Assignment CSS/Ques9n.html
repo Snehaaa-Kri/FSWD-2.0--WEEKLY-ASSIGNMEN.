@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9-Customized_dropdown</title>
+
+    <style>
+
+        .dropdown{
+            position: relative;
+            display: inline-block;
+            border: 1px solid gray;
+        }
+        .dropbtn{
+            width: 200px;
+            background-color: #d64f4f;
+            text-align: center;
+            padding: 15px;
+            border: none;
+        }
+        
+        .dropdown_content{
+            border: 1px solid #80808048;
+            display: none;
+            position: absolute;
+            height: 160px;
+            width: 199px ;
+            overflow-y: scroll;
+        }
+
+        .dropdown_content a{
+            display: block;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            border: 1px solid #8080800e;
+        }
+        .dropdown_content a:hover{
+            display: block;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            border: 1px solid #8080800e;
+            background-color: #dbdbdb;
+        }
+    /* Show the dropdown menu on hover */  
+    
+    .dropdown:hover .dropdown_content{
+        display: block;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div class="dropdown">
+        <button class="dropbtn"><b>Hover To View Options</b></button>
+        <div class="dropdown_content">
+            <a href="">Option 1</a>
+            <a href="">Option 2</a>
+            <a href="">Option 3</a>
+            <a href="">Option 4</a>
+            <a href="">Option 5</a>
+            <a href="">Option 6</a>
+            <a href="">Option 7</a>
+            <a href="">Option 8</a>
+            <a href="">Option 9</a>
+        </div>
+    </div>
+</body>
+</html>

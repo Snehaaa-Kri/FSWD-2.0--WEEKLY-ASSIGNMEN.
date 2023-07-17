@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2-Nav+Landing page</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container1{
+            display: grid;
+            grid-template-areas:
+            "navbar navbar navbar" 
+            "main sidebar bgyellow";
+
+        }
+        
+        .main-content{
+            grid-area: main;
+            padding: 100px;
+            font-size: 23px;
+            align-self: center;
+        }
+        .sidebar{
+            grid-area: sidebar;
+            height: 100vh;
+        }
+        .bg-yellow{
+            grid-area: bgyellow;
+            width: 15vw;
+            background-color: yellow;
+        }
+        
+        p{
+            color: grey;
+        }
+        .button2{
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 8px 40px;  
+            display: inline;
+        }
+
+
+       
+        .logo{
+            height: 70px;
+        }
+
+        
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        nav, ul, a{
+            display: flex;
+            align-items: center;
+            padding: 5px 30px;
+
+        }
+
+        nav, li, a{
+            list-style-type: none;
+            text-decoration: none;
+            font-size: 20px; 
+            color: black;  
+        }
+
+        .button1{
+            font-size: 20px; 
+            border-radius: 5px;
+            padding: 7px 60px;
+            background-color: #2ebd2e;
+            border: none;
+            
+        }
+
+
+        
+
+        
+
+
+        
+        
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- NAV-BAR  -->
+    <header>
+        <img class="logo" src="./logo.jpg" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <a  href="#"><button class="button1">Login</button></a>
+    </header>
+    
+    
+    <div class="container1">
+    <!-- MAIN CONTENT  -->
+        <div class="main-content">
+            <h1>Healthy Food</h1>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo id beatae necessitatibus, eaque         cumque blanditiis maxime temporibus iste, voluptatem possimus tempore cum ipsum culpa corrupti esse         fugit sit fugiat similique autem voluptate quasi porro expedita. Doloribus odio architecto sed,         dolorem eos facere aspernatur maxime veritatis vel fugit, corporis temporibus magnam explicabo iusto        repellendus exercitatione ea!</p>
+            <br><br>
+
+            <a href="#" class="button2">Read More</a>
+        </div>    
+
+            <img src="./food.jpg" alt="food-img" class="sidebar">
+
+        <div class="bg-yellow"></div>    
+        </div>
+    
+</body>
+</html>

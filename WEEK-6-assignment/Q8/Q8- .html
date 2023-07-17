@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avtaar</title>
+
+    <style>
+
+        body{
+            background-color:#242323 ;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            top: 200px;
+
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+            border-radius: 110px;
+            justify-content: center;
+            position: absolute;
+            border: 7px solid white;
+            margin-left: 260px;
+        }
+        .img1{
+            z-index: 999;
+            
+        }
+
+        .img2{
+            left: 180px;
+            z-index: 888;
+        }
+
+        .img3{
+            left: 370px ;
+            z-index: 777;
+        }
+
+        .img4{
+            left: 560px;
+            z-index: 666;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="container">
+    
+    <div><img src="./image 1.jpeg" alt="" class="img img1"></div>
+
+    <div><img src="./image 2.jpg" alt="" class="img img2"></div>
+
+    <div><img src="./image 3.webp" alt="" class="img img3"></div>
+
+    <div><img src="./image 4.jpg" alt="" class="img img4"></div>
+
+
+</div>    
+    
+</body>
+</html>

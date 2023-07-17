@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+
+    <style>
+        div{
+            border: 2px solid black;
+            width: 500px;
+            height: 500px;
+        }
+
+        .invert{
+            filter: invert();
+        }
+        
+        .blur{
+            filter: blur(2px);
+        }
+
+        .brightness{
+            filter: brightness(0.3);
+        }
+
+        .grayscale{
+            filter: grayscale(0.7);
+        }
+
+        .hue-rotate{
+            filter: hue-rotate(90deg);
+        }
+
+        .drop-shadow{
+            filter: drop-shadow(30px 10px 2px #3fb1e2) hue-rotate(90deg)
+            drop-shadow(30px 10px 2px #3fb1e2);
+        }
+    </style>
+</head>
+<body>
+    
+    
+    
+   
+    <i><b>Filter:invert</b> 
+        ===== property plays with the colors of the image
+    </i>
+            <div>
+                <img class="invert" src="./4th-filter.jpg" alt="" width="100%" >
+            </div>
+
+    <br><br>
+    <i><b>Filter:blur(2px)</b> 
+        ===== property gausian blurr ke liye px me value dena hota h
+    </i>
+            <div>
+                <img class="blur" src="./4th-filter.jpg" alt="" width="100%">   
+            </div>
+
+
+    <br><br>
+    <i><b>Filter:brightness(2px)</b>  ===== property   gausian blurr ke liye px me value dena hota h  ==== [0,1]
+    </i>
+            <div>
+                <img class="brightness" src="./4th-filter.jpg" alt="" width="100%">
+            </div>
+
+
+    <br><br>
+    <i><b>Filter:Grayscale(0.2px)</b>  ===== property   grayish tone kitna quantity me chahiye  ==== [0,1]</i>
+            <div>
+                <img class="grayscale" src="./4th-filter.jpg" alt="" width="100%">
+            </div>
+
+
+    <br><br>
+    <i><b>Filter:Hue-rotate(in deg)</b>  ===== property     ==== [90deg]</i> <br>
+    <i>HUE ==== is a graph of colors</i>
+            <div>
+                <img class="hue-rotate" src="./4th-filter.jpg" alt="" width="100%">
+            </div>
+
+
+    <br><br>
+    <i><b>Filter:drop-shadow(in deg)</b>  ===== property     ==== [90deg]</i> <br>
+    <i>HUE ==== is a graph of colors</i>
+            <div>
+                <img class="drop-shadow" src="./4th-filter.jpg" alt="" width="100%">
+            </div>
+</body>
+</html>

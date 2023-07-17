@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q7-Solution</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #222121;
+        }
+        .btn-container{
+            display: grid;
+            justify-content:center;
+            align-content: center;
+            height: 200px;
+            width: 100vw;  
+        }
+        
+        .btn{
+            padding: 15px 70px;
+            height: 60px;
+            color: white;
+            background-image: linear-gradient(to right, #4848ed, #5406a1);
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            
+        /* ANIMATION */
+            animation-name: btn-move;
+            animation-duration: 0.7s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-timing-function: ease-in-out;
+        }
+
+        @keyframes btn-move{
+            from{
+                margin-top: 3%;
+            }
+            to{
+                margin-bottom: 3%;
+            }
+        }
+        .btn>a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.4rem;
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="btn-container">
+        <button class="btn"><a href="https://pwskills.com/courses?utm_source=google&utm_medium=cpc&utm_campaign=Pw_Skills_brand_java&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmFjXlUZGABizB0H8pw7q3QbTWUSLGZd6yiQ35zZEqkmP8FNbTcgRFBoCkQAQAvD_BwE">Click Me To Visit PW Skills</a></button>
+    </div>
+</body>
+</html>
